@@ -90,7 +90,7 @@ header {
   width: 50%;
   height: 65%;
   background-color: white;
-  border: 3px solid black;
+  border: 3px solid #191919;
   z-index: 5;
   overflow: hidden;
 }
@@ -109,7 +109,7 @@ header {
   width: 50%;
   height: 65%;
   background-color: white;
-  border: 3px solid black;
+  border: 3px solid #191919;
   z-index: 5;
   overflow: hidden;
 }
@@ -128,7 +128,7 @@ header {
   width: 50%;
   height: 65%;
   background-color: white;
-  border: 3px solid black;
+  border: 3px solid #191919;
   z-index: 5;
   overflow: hidden;
 }
