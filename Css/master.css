@@ -93,11 +93,17 @@ header {
   border: 3px solid #191919;
   z-index: 5;
   overflow: hidden;
+  transition: width 0.8s, height 0.8s;
 }
 
 .prev1 img {
   width: 100%;
   height: auto;
+}
+
+.prev1:hover {
+  width: 55%;
+  height: 70%;
 }
 
 .prev2 {
@@ -112,11 +118,18 @@ header {
   border: 3px solid #191919;
   z-index: 5;
   overflow: hidden;
+  transition: width 0.8s, height 0.8s, border 0.5s;
 }
 
 .prev2 img {
   width: 100%;
   height: auto;
+}
+
+.prev2:hover {
+  width: 55%;
+  height: 70%;
+  border: 5px solid white;
 }
 
 .prev3 {
@@ -131,11 +144,17 @@ header {
   border: 3px solid #191919;
   z-index: 5;
   overflow: hidden;
+  transition: width 0.8s, height 0.8s;
 }
 
 .prev3 img {
   width: 100%;
   height: auto;
+}
+
+.prev3:hover {
+  width: 55%;
+  height: 70%;
 }
 
 /* LOGO */
