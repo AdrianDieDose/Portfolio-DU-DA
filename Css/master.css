@@ -708,6 +708,10 @@ header {
 }
 
 @media (max-width: 475px) {
+  .portfolio-prevw-heading {
+    margin-bottom: 320px;
+  }
+
   .loading {
     grid-template-columns: 1fr 200px 1fr;
     grid-template-rows: 1fr 200px 1fr;
@@ -796,6 +800,10 @@ header {
 }
 
 @media (max-width: 350px) {
+  .portfolio-prevw-heading {
+    margin-bottom: 350px;
+  }
+
   .prev1 {
     width: 80px;
     height: 120px;
