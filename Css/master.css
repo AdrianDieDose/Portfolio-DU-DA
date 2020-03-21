@@ -607,14 +607,32 @@ header {
     height: 230px;
   }
 
+  .prev1:hover {
+    width: 150px;
+    height: 240px;
+    border: 5px solid #F0DB4F;
+  }
+
   .prev2 {
     width: 140px;
     height: 230px;
   }
 
+  .prev2:hover {
+    width: 150px;
+    height: 240px;
+    border: 5px solid white;
+  }
+
   .prev3 {
     width: 140px;
     height: 230px;
+  }
+
+  .prev3:hover {
+    width: 150px;
+    height: 240px;
+    border: 5px solid black;
   }
 }
 
@@ -659,6 +677,21 @@ header {
     margin-left: 10px;
     width: 130px;
     height: 200px;
+  }
+
+  .prev1:hover {
+    width: 140px;
+    height: 210px;
+  }
+
+  .prev2:hover {
+    width: 140px;
+    height: 210px;
+  }
+
+  .prev3:hover {
+    width: 140px;
+    height: 210px;
   }
 
   .right-box {
@@ -734,14 +767,29 @@ header {
     height: 150px;
   }
 
+  .prev1:hover {
+    width: 110px;
+    height: 160px;
+  }
+
   .prev2 {
     width: 100px;
     height: 150px;
   }
 
+  .prev2:hover {
+    width: 110px;
+    height: 160px;
+  }
+
   .prev3 {
     width: 100px;
     height: 150px;
+  }
+
+  .prev3:hover {
+    width: 110px;
+    height: 160px;
   }
 }
 
