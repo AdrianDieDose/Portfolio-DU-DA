@@ -640,7 +640,7 @@ header {
   /* Changed to mobile layout */
   .grid {
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 100vh 100vh;
+    grid-template-rows: 100vh 90vh;
     grid-row-gap: 100px;
   }
 
