@@ -61,7 +61,7 @@ body {
   }
 
   95% {
-    opacity: 90%;
+    width: 80%;
     /* Standard compliant browsers */
     -moz-opacity: 90%;
     /* Firefox and Mozilla browsers */
@@ -128,17 +128,13 @@ body {
     border: 1px solid white;
   }
 
-  92% {
-    transform: rotate(600deg);
+  95% {
+    transform: rotate(620deg);
     background-color: black;
   }
 
-  95% {
-    transform: rotate(530deg);
-  }
-
   100% {
-    transform: rotate(450deg);
+    transform: rotate(550deg);
     background-color: black;
     border: 5px solid black;
   }
@@ -267,7 +263,7 @@ body {
 
 @keyframes loading-screen-background {
   0% {
-    width: 100% background-color: black;
+    background-color: black;
     opacity: 100%;
     /* Standard compliant browsers */
     -moz-opacity: 100%;
@@ -290,7 +286,7 @@ body {
   }
 
   95% {
-    width: 100% opacity: 90%;
+    opacity: 90%;
     /* Standard compliant browsers */
     -moz-opacity: 90%;
     /* Firefox and Mozilla browsers */
@@ -302,7 +298,7 @@ body {
   }
 
   100% {
-    width: 0% opacity: 0%;
+    opacity: 0%;
     /* Standard compliant browsers */
     -moz-opacity: 0%;
     /* Firefox and Mozilla browsers */
