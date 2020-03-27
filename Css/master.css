@@ -1,4 +1,4 @@
-/* Colors and Setup*/
+/* Colors and Setup needs to be cleaned to final*/
 :root {
   --main-color: #06c;
 }
@@ -95,7 +95,6 @@ body {
   border: 2px solid white;
   width: 200px;
   height: 200px;
-  transform: rotate(0deg);
   z-index: 21;
   animation-name: load;
   animation-duration: 6s;
@@ -335,7 +334,6 @@ header {
   margin: 0px auto;
   margin-right: 0px;
   background-color: #d5506b;
-  box-shadow: inset 0 0 0.5em 0.1em black;
 }
 
 /* Left box */
@@ -365,6 +363,15 @@ header {
 }
 
 /* Left box top*/
+.box1-top {
+  justify-self: center;
+  align-self: center;
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+  z-index: 10;
+}
+
+/* Left box bot*/
 /* Logo start */
 .logo {
   height: 300px;
@@ -428,16 +435,6 @@ header {
 
 #DA {
   letter-spacing: -2px;
-}
-
-/* Logo end */
-/* Left box bot*/
-.box1-top {
-  justify-self: center;
-  align-self: center;
-  grid-row: 1 / 2;
-  grid-column: 1 / 4;
-  z-index: 10;
 }
 
 /* Portfolio preview start */
@@ -592,6 +589,7 @@ header {
   grid-template-rows: repeat(2, 1fr);
 }
 
+/* Navigation start*/
 .right-box nav {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
@@ -653,6 +651,8 @@ header {
   width: 180px;
 }
 
+/* Navigation end */
+/* Divider right */
 .divider-right {
   grid-column: 1 / 2;
   grid-row: 1 / 3;
@@ -736,7 +736,7 @@ header {
     height: 150%;
   }
 
-  /* Preview resize */
+  /* Preview boxes resize */
   .portfolio-prevw-heading {
     margin: 0 auto;
     margin-bottom: 300px;
