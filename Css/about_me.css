@@ -431,7 +431,7 @@ section .small {
     height: 95vh;
   }
 
-  nav ul {
+  nav li {
     font-size: 1.3rem;
   }
 }
