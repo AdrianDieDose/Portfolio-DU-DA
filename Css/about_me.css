@@ -153,7 +153,7 @@ nav a:hover {
   border: 1px solid white;
   opacity: 0%;
   animation-name: textfade;
-  animation-duration: 0.7s;
+  animation-duration: 0.4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-delay: 0.9s;
@@ -173,10 +173,10 @@ nav a:hover {
   overflow: hidden;
   opacity: 0%;
   animation-name: previewfade;
-  animation-duration: 0.5s;
+  animation-duration: 0.4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
+  animation-delay: 0.9s;
   z-index: 5;
 }
 
@@ -198,7 +198,7 @@ nav a:hover {
   border: 1px solid white;
   opacity: 0%;
   animation-name: textfade;
-  animation-duration: 0.7s;
+  animation-duration: 0.4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-delay: 0.9s;
@@ -278,16 +278,19 @@ section .small {
 /* Keyframes section 1-3 */
 @keyframes boxrotate1 {
   0% {
+    width: 0%;
     opacity: 0%;
     transform: rotate(0deg);
   }
 
   80% {
+    width: 50%;
     opacity: 50%;
     transform: rotate(-3deg);
   }
 
   100% {
+    width: 120%;
     opacity: 100%;
     transform: rotate(10deg);
   }
@@ -295,16 +298,19 @@ section .small {
 
 @keyframes boxrotate2 {
   0% {
+    width: 0%;
     opacity: 0%;
     transform: rotate(0deg);
   }
 
   80% {
+    width: 50%;
     opacity: 50%;
     transform: rotate(3deg);
   }
 
   100% {
+    width: 120%;
     opacity: 100%;
     transform: rotate(-10deg);
   }
@@ -379,7 +385,7 @@ section .small {
 
 #text2 {
   margin-top: 250px;
-  animation-delay: 1s;
+  animation-delay: 0.9s;
 }
 
 /* Section 3 */
@@ -394,4 +400,65 @@ section .small {
   height: 100vh;
   box-shadow: inset 0 0 1em 0.1em black;
   position: relative;
+}
+
+/* Media querys */
+@media (max-width: 993px) {
+  main {
+    height: 200vh;
+  }
+
+  .heading {
+    height: 7vh;
+  }
+
+  .heading h1 {
+    font-size: 5rem;
+  }
+
+  .section1 {
+    height: 95vh;
+  }
+
+  .section2 {
+    height: 95vh;
+  }
+
+  .section3 {
+    height: 95vh;
+  }
+
+  nav ul {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  main {
+    height: 200vh;
+  }
+
+  .heading {
+    height: 8vh;
+  }
+
+  .heading h1 {
+    font-size: 5rem;
+  }
+
+  .section1 {
+    height: 90vh;
+  }
+
+  .section2 {
+    height: 90vh;
+  }
+
+  .section3 {
+    height: 90vh;
+  }
+
+  nav ul {
+    font-size: 2rem;
+  }
 }
