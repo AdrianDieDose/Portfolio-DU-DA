@@ -11,7 +11,7 @@ html, body {
 
 main {
   width: 100%;
-  height: 300vh;
+  height: 200vh;
 }
 
 /* Header */
@@ -131,12 +131,11 @@ nav a:hover {
   height: 390px;
   background-color: black;
   box-shadow: 0.4em 0.4em 1em -0.2em black;
-  opacity: 100%;
+  opacity: 0%;
   animation-name: boxrotate1;
   animation-duration: 1.1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.2s;
   overflow: hidden;
   z-index: 0;
 }
@@ -157,7 +156,7 @@ nav a:hover {
   animation-duration: 0.7s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
+  animation-delay: 0.9s;
   z-index: 5;
 }
 
@@ -174,10 +173,10 @@ nav a:hover {
   overflow: hidden;
   opacity: 0%;
   animation-name: previewfade;
-  animation-duration: 0.7s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 1.2s;
+  animation-delay: 1s;
   z-index: 5;
 }
 
@@ -202,7 +201,7 @@ nav a:hover {
   animation-duration: 0.7s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
+  animation-delay: 0.9s;
   z-index: 5;
 }
 
@@ -279,36 +278,34 @@ section .small {
 /* Keyframes section 1-3 */
 @keyframes boxrotate1 {
   0% {
+    opacity: 0%;
     transform: rotate(0deg);
   }
 
-  40% {
-    transform: rotate(5deg);
-  }
-
-  70% {
-    transform: rotate(-5deg);
+  80% {
+    opacity: 50%;
+    transform: rotate(-3deg);
   }
 
   100% {
+    opacity: 100%;
     transform: rotate(10deg);
   }
 }
 
 @keyframes boxrotate2 {
   0% {
+    opacity: 0%;
     transform: rotate(0deg);
   }
 
-  40% {
-    transform: rotate(-5deg);
-  }
-
-  70% {
-    transform: rotate(5deg);
+  80% {
+    opacity: 50%;
+    transform: rotate(3deg);
   }
 
   100% {
+    opacity: 100%;
     transform: rotate(-10deg);
   }
 }
@@ -378,12 +375,11 @@ section .small {
 
 #text1 {
   margin-bottom: 250px;
-  animation-delay: 1s;
 }
 
 #text2 {
   margin-top: 250px;
-  animation-delay: 1.2s;
+  animation-delay: 1s;
 }
 
 /* Section 3 */
