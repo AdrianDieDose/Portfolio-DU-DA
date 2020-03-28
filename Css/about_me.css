@@ -309,6 +309,7 @@ section .small {
   80% {
     width: 50%;
     opacity: 50%;
+    transform: rotate(0deg);
   }
 
   100% {
