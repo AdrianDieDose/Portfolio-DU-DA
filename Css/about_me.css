@@ -30,7 +30,7 @@ main {
   color: white;
   z-index: 1;
   font-weight: 300;
-  opacity: 100%;
+  opacity: 0%;
   animation-name: heading;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
@@ -44,7 +44,7 @@ main {
   background-color: black;
   border-radius: 5px;
   z-index: 0;
-  opacity: 100%;
+  opacity: 0%;
   animation-name: underline1;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
@@ -58,30 +58,44 @@ main {
   background-color: black;
   border-radius: 5px;
   z-index: 0;
-  opacity: 100%;
+  opacity: 0%;
   animation-name: underline2;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
 
+@keyframes heading {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
 @keyframes underline1 {
   0% {
     width: 0px;
+    opacity: 0%;
   }
 
   100% {
     width: 100px;
+    opacity: 100%;
   }
 }
 
 @keyframes underline2 {
   0% {
     width: 0px;
+    opacity: 0%;
   }
 
   100% {
     width: 100px;
+    opacity: 100%;
   }
 }
 
@@ -295,7 +309,6 @@ section .small {
   80% {
     width: 50%;
     opacity: 50%;
-    transform: rotate(3deg);
   }
 
   100% {
