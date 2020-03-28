@@ -117,10 +117,13 @@ nav ul {
 nav a {
   text-decoration: none;
   color: white;
+}
+
+nav li {
   transition: font-size 0.3s;
 }
 
-nav a:hover {
+nav li:hover {
   font-size: 1.4rem;
 }
 
