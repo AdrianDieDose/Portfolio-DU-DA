@@ -299,26 +299,6 @@ section .small {
   }
 }
 
-@keyframes boxrotate2 {
-  0% {
-    width: 0%;
-    opacity: 0%;
-    transform: rotate(0deg);
-  }
-
-  80% {
-    width: 50%;
-    opacity: 50%;
-    transform: rotate(0deg);
-  }
-
-  100% {
-    width: 120%;
-    opacity: 100%;
-    transform: rotate(-10deg);
-  }
-}
-
 @keyframes textfade {
   0% {
     opacity: 0%;
@@ -379,7 +359,10 @@ section .small {
 }
 
 #box2 {
-  animation-name: boxrotate2;
+  animation-name: none;
+  width: 120%;
+  opacity: 100%;
+  transform: rotate(-10deg);
 }
 
 #text1 {
