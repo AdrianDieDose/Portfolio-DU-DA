@@ -185,11 +185,47 @@ nav li:hover {
 .box1 {
   position: absolute;
   bottom: 0px;
-  margin-bottom: 1000px;
   height: 35%;
   width: 200%;
   transform: rotate(-45deg);
   background-color: black;
+  animation: boxanimate 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+.box2 {
+  position: absolute;
+  bottom: 0px;
+  left: -800px;
+  height: 35%;
+  width: 200%;
+  margin-bottom: 2000px;
+  transform: rotate(-45deg);
+  background-color: black;
+  animation: boxanimate2 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes boxanimate {
+  0% {
+    margin-bottom: 0px;
+  }
+
+  100% {
+    margin-bottom: 1000px;
+  }
+}
+
+@keyframes boxanimate2 {
+  0% {
+    margin-bottom: 1200px;
+  }
+
+  100% {
+    margin-bottom: 2200px;
+  }
 }
 
 @media (max-width: 822px) {
