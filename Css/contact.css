@@ -185,6 +185,7 @@ nav li:hover {
 .box1 {
   position: absolute;
   bottom: 0px;
+  left: 0px;
   height: 35%;
   width: 200%;
   transform: rotate(-45deg);
@@ -228,7 +229,14 @@ nav li:hover {
   }
 }
 
-@media (max-width: 822px) {
+@media (max-width: 920px) {
+  .box1 {
+    bottom: 0px;
+    left: -200px;
+  }
+}
+
+@media (max-width: 700px) {
   nav {
     position: absolute;
     right: 40px;
