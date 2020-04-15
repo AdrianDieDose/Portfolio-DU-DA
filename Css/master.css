@@ -3,11 +3,12 @@
   --main-color: #06c;
 }
 
-html, body {
+html,
+body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #d5506b;
 }
 
@@ -477,7 +478,7 @@ header {
 .prev1:hover {
   width: 210px;
   height: 300px;
-  border: 5px solid #F0DB4F;
+  border: 5px solid #f0db4f;
 }
 
 .prev2 {
@@ -514,7 +515,7 @@ header {
   justify-self: start;
   width: 190px;
   height: 280px;
-  background-color: #4B0082;
+  background-color: #4b0082;
   border: 3px solid white;
   z-index: 5;
   overflow: hidden;
@@ -623,7 +624,7 @@ header {
 }
 
 .right-box a::after {
-  content: '';
+  content: "";
   background-color: white;
   display: block;
   width: 0%;
@@ -632,7 +633,7 @@ header {
 }
 
 .right-box a:hover::after {
-  content: '';
+  content: "";
   background-color: #d5506b;
   display: block;
   width: 100%;
@@ -760,7 +761,7 @@ header {
   .prev1:hover {
     width: 150px;
     height: 240px;
-    border: 5px solid #F0DB4F;
+    border: 5px solid #f0db4f;
   }
 
   .prev2:hover {
@@ -777,7 +778,6 @@ header {
 }
 
 @media (max-width: 1000px) {
-
   /* Changed to mobile layout */
   .grid {
     grid-template-columns: repeat(5, 1fr);
@@ -863,7 +863,6 @@ header {
 }
 
 @media (max-width: 475px) {
-
   /* Loading screen resize */
   .loading {
     grid-template-columns: 1fr 200px 1fr;
@@ -975,7 +974,6 @@ header {
 }
 
 @media (max-width: 350px) {
-
   /* Preview resize */
   .prev1 {
     width: 80px;
